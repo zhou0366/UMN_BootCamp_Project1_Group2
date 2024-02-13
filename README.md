@@ -40,6 +40,9 @@ World Bank data measures socioeconomic data and waste generation breakdown by pe
 
 To clean the data, the source file is imported as a pandas dataframe. As each row represents an individual measurement, we will first need to narrow down the dataframe to only include rows measuring milligrams of O2 per liter, pH, and temperatures in degrees Celsius. For the rest of the analysis, we will not need all columns of the dataframe. We will then continue to narrow the dataframe to columns for the country name, water body ID as assigned by the EEA, year of the measurement, unit of measure of the measurement, value of the measurement, population density of the country, and GDP of the country. Empty rows are dropped and the index is reset before the resulting cleaned dataframe is exported to a new file. For purposes of investigating the amount of datapoints taken, we then make a dataframe with a column containing each unique country. Then, we group by the number of unique years and water body IDs corresponding to each country. The resulting dataframe is also exported to another file.
 
+![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/22827830/6393d2d7-c64a-499e-aaf8-1f8ed6557033)
+
+
 ![Screenshot 2024-02-12 at 9 37 41 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a92c1961-e1bc-4adb-bca2-b164a016c1ef)
 
 ![Screenshot 2024-02-12 at 9 37 51 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dd1b352d-826c-4d3b-a29c-58cb154780cb)
