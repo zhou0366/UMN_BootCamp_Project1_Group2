@@ -38,6 +38,19 @@ European Environmental Agency (EEA) data measures 19 different water conditions 
 
 World Bank data measures socioeconomic data and waste generation breakdown by percentage. For this dataset, waste percentages are not used as this data is not neccesarily limited to waste that goes into bodies of water. The two socioeconomic conditions used are population density and GDP as they are commonly used to describe socioeconomic conditions. Additionally, other values such as net immigration have a limited timeframe. Applying these timeframes to the EEA data severely limited the amount of data available.
 
+![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/c8b6d428-27d3-4026-ace1-b79ffa4bb44e)
+
+![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/6168a798-2687-4b17-8ec3-3ff68b91508d)
+
+![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/3a16b5da-d10a-4cbb-bc33-1794057918ca)
+
+![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/87e35bcd-bbb1-48ef-bb9e-dc2583b840b4)
+
+![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/110c117a-6446-4a88-95ff-c0e5ea1c0698)
+
+![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a0439e92-a816-43ea-8057-aad0997592a3)
+
+
 ## Sources
 
 ### Main Datasource
