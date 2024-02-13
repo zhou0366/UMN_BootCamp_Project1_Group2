@@ -27,7 +27,7 @@ We decided to examine water quality vs. GDP and also water quality vs. populatio
 Whereas there are general assumptions that larger population density leads to greater pollution levels, or that higher GDP and therefore higher product consumption leads to greater pollution levels, and there are also inverse assumptions that lower GDP countries not having as much money to clean up or prevent pollution, our data did not bear out any conclusive evidence of cause or effect or even correlation in those areas when it comes to water impairment. Our data was limited to only a few indicators of water impairment. There is the possibility that other factors such as pharmaceuticals in the water may be higher in higher GDP countries, we did not examine those factors, so we cannot talk about that. But, our findings are not considering enough types of indicators of water impairment to make any statements on correlation between population density and water impairment or GDP and water impairment. 
 
 ## Project Analysis
-###Data Source
+### Data Source
 The data source used for this project combines data from two sources:
 
 European Environmental Agency (EEA) data measures 19 different water conditions in different bodies of fresh water across Europe. For this project's analysis, water temeprature, acidity, and dissolved oxygen concentration will be used as the main water quality measurements.
