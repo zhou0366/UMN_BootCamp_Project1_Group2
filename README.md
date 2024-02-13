@@ -38,17 +38,22 @@ European Environmental Agency (EEA) data measures 19 different water conditions 
 
 World Bank data measures socioeconomic data and waste generation breakdown by percentage. For this dataset, waste percentages are not used as this data is not neccesarily limited to waste that goes into bodies of water. The two socioeconomic conditions used are population density and GDP as they are commonly used to describe socioeconomic conditions. Additionally, other values such as net immigration have a limited timeframe. Applying these timeframes to the EEA data severely limited the amount of data available.
 
-![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/c8b6d428-27d3-4026-ace1-b79ffa4bb44e)
+![Screenshot 2024-02-12 at 9 37 41 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a92c1961-e1bc-4adb-bca2-b164a016c1ef)
 
-![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/6168a798-2687-4b17-8ec3-3ff68b91508d)
+![Screenshot 2024-02-12 at 9 37 51 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dd1b352d-826c-4d3b-a29c-58cb154780cb)
 
-![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/3a16b5da-d10a-4cbb-bc33-1794057918ca)
+![Screenshot 2024-02-12 at 9 37 58 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/f2387b6a-42e8-4c26-b1fe-9e2b5cd60f81)
 
-![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/87e35bcd-bbb1-48ef-bb9e-dc2583b840b4)
+![Screenshot 2024-02-12 at 9 38 11 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/08877c54-3d2d-4e03-830f-9bbb3bb5c9d3)
 
-![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/110c117a-6446-4a88-95ff-c0e5ea1c0698)
+![Screenshot 2024-02-12 at 9 38 04 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/2de032d4-1678-4f71-97bf-a82f86b1380e)
 
-![image](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a0439e92-a816-43ea-8057-aad0997592a3)
+![Screenshot 2024-02-12 at 9 38 17 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a205e9ff-3c27-4cfe-8fcd-cfba2dc05713)
+
+![Screenshot 2024-02-12 at 9 37 21 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/15278822-6d7b-41df-a377-5c8575d3fd83)
+
+![Screenshot 2024-02-12 at 9 37 08 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/edc75afc-093f-4c3a-9de1-66489b423bfa)
+![Screenshot 2024-02-12 at 9 44 07 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/07f4c242-0c04-483a-a5fc-e7536a19201a)
 
 
 ## Sources
