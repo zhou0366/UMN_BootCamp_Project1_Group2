@@ -26,17 +26,19 @@ CountryCoords.csv - Source of Geographic Coordinates for mapping the countries.
 map.ipynb - Code for creating a map with the countries in the dataset.
 
 ## Project Summary
-We decided to examine water quality vs. GDP and also water quality vs. population density in order to see if we could find any correlations between water quality and these factors. We set about doing this by first cleaning the data set and trying to understand limitations of the data.  
+We decided to examine water quality vs. GDP and also water quality vs. population density to see if we could find any correlations between water quality and these factors. We set about doing this by first cleaning the data set and trying to understand the limitations of the data.  
 
-Whereas there are general assumptions that larger population density leads to greater pollution levels, or that higher GDP and therefore higher product consumption leads to greater pollution levels, and there are also inverse assumptions that lower GDP countries not having as much money to clean up or prevent pollution, our data did not bear out any conclusive evidence of cause or effect or even correlation in those areas when it comes to water impairment. Our data was limited to only a few indicators of water impairment. There is the possibility that other factors such as pharmaceuticals in the water may be higher in higher GDP countries, we did not examine those factors, so we cannot talk about that. But, our findings are not considering enough types of indicators of water impairment to make any statements on correlation between population density and water impairment or GDP and water impairment. 
+Whereas there are general assumptions that larger population density leads to greater pollution levels, or that higher GDP and therefore higher product consumption leads to greater pollution levels, and there are also inverse assumptions that lower GDP countries do not have as much money to clean up or prevent pollution, our data did not bear out any conclusive evidence of cause or effect or even correlation in those areas when it comes to water impairment. Our data was limited to only a few indicators of water impairment. There is the possibility that other factors such as pharmaceuticals in the water may be higher in higher GDP countries, we did not examine those factors, so we cannot talk about that. However, our findings do not consider enough types of indicators of water impairment to make any statements on the correlation between population density and water impairment or GDP and water impairment. 
 
 ## Project Analysis
 ### Data Source
 The data source used for this project combines data from two sources:
 
-European Environmental Agency (EEA) data measures 19 different water conditions in different bodies of fresh water across Europe. For this project's analysis, water temeprature, acidity, and dissolved oxygen concentration will be used as the main water quality measurements.
+European Environmental Agency (EEA) data measures 19 different water conditions in different bodies of fresh water across Europe. For this project's analysis, water temperature, acidity, and dissolved oxygen concentration will be used as the main water quality measurements.
 
-World Bank data measures socioeconomic data and waste generation breakdown by percentage. For this dataset, waste percentages are not used as this data is not neccesarily limited to waste that goes into bodies of water. The two socioeconomic conditions used are population density and GDP as they are commonly used to describe socioeconomic conditions. Additionally, other values such as net immigration have a limited timeframe. Applying these timeframes to the EEA data severely limited the amount of data available.
+World Bank data measures socioeconomic data and waste generation breakdown by percentage. For this dataset, waste percentages are not used as this data is not necessarily limited to waste that goes into bodies of water. The two socioeconomic conditions used are population density and GDP as they are commonly used to describe socioeconomic conditions. Additionally, other values such as net immigration have a limited timeframe. Applying these timeframes to the EEA data severely limited the amount of data available.
+
+To clean the data, the source file is imported as a pandas dataframe. As each row represents an individual measurement, we will first need to narrow down the dataframe to only include rows measuring milligrams of O2 per liter, pH, and temperatures in degrees Celsius. For the rest of the analysis, we will not need all columns of the dataframe. We will then continue to narrow the dataframe to columns for the country name, water body ID as assigned by the EEA, year of the measurement, unit of measure of the measurement, value of the measurement, population density of the country, and GDP of the country. Empty rows are dropped and the index is reset before the resulting cleaned dataframe is exported to a new file. For purposes of investigating the amount of datapoints taken, we then make a dataframe with a column containing each unique country. Then, we group by the number of unique years and water body IDs corresponding to each country. The resulting dataframe is also exported to another file.
 
 ![Screenshot 2024-02-12 at 9 37 41 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a92c1961-e1bc-4adb-bca2-b164a016c1ef)
 
@@ -56,7 +58,7 @@ World Bank data measures socioeconomic data and waste generation breakdown by pe
 ![Screenshot 2024-02-12 at 9 54 03 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dfeda7bf-247c-435b-bc83-1ad225c30224)
 
 
-## Sources
+## Appendix and Sources
 
 ### Main Datasource
 https://www.kaggle.com/datasets/ozgurdogan646/water-quality-dataset
@@ -70,3 +72,6 @@ https://www.epa.gov/awma/factsheets-water-quality-parameters
 
 https://developers.google.com/public-data/docs/canonical/countries_csv
 
+### Abbreviations
+GDP - Gross Domestic Product
+EEA - European Environmental Agency
