@@ -49,11 +49,11 @@ World Bank data measures socioeconomic data and waste generation breakdown by pe
 ![Screenshot 2024-02-12 at 9 38 04 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/2de032d4-1678-4f71-97bf-a82f86b1380e)
 
 ![Screenshot 2024-02-12 at 9 38 17 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a205e9ff-3c27-4cfe-8fcd-cfba2dc05713)
+![Screenshot 2024-02-12 at 9 54 35 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/82a1cf99-819a-434a-9f8e-202f6601def5)
 
-![Screenshot 2024-02-12 at 9 37 21 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/15278822-6d7b-41df-a377-5c8575d3fd83)
+![Screenshot 2024-02-12 at 9 54 23 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/528c6611-fa17-4c77-8270-b3656052fde8)
 
-![Screenshot 2024-02-12 at 9 37 08 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/edc75afc-093f-4c3a-9de1-66489b423bfa)
-![Screenshot 2024-02-12 at 9 44 07 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/07f4c242-0c04-483a-a5fc-e7536a19201a)
+![Screenshot 2024-02-12 at 9 54 03 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dfeda7bf-247c-435b-bc83-1ad225c30224)
 
 
 ## Sources
