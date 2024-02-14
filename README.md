@@ -45,6 +45,8 @@ To clean the data, the source file is imported as a pandas dataframe. As each ro
 
 For purposes of investigating the amount of datapoints taken, we then make a dataframe with a column containing each unique country. Then, we group by the number of unique years and water body IDs corresponding to each country. The resulting dataframe is also exported to another file. From this, we can see that there is a wide range of the number of measurements taken for each country. 
 
+![Screenshot 2024-02-12 at 9 37 51 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dd1b352d-826c-4d3b-a29c-58cb154780cb)
+
 ![Screenshot 2024-02-12 at 9 54 03 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dfeda7bf-247c-435b-bc83-1ad225c30224)
 
 ### Limitations and Recommendations
@@ -55,13 +57,6 @@ Ideally, the dataset would have data taken over the same number of years or even
 Another limitation we faced was a lack of procedure around the water temperature measurements. Without knowing if the temperature was measured at the same time or day or same time of year, we cannot effectively compare measurements to draw conclusions.
 
 In order to draw the most meaningful conclusions, our recommendation would be to gather water samples at the same time of day and on the same days of the year over a set number of years to make the measurements consistent. Each country should also have a more equal number of unique bodies of water being measured to allow for a more representative data set per country as well as to avoid the data being skewed in any country's direction due to a particularly excellent source of water or conversely a poor one if only one is being measured. Lastly, the data should be updated to reflect each country's GDP and population density changes with time to allow for more granularity in the data and the ability to drill down into a single country's water quality changes over time as its GDP and population density flucuates.
-
-![Screenshot 2024-02-12 at 9 37 41 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a92c1961-e1bc-4adb-bca2-b164a016c1ef)
-
-![Screenshot 2024-02-12 at 9 37 51 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dd1b352d-826c-4d3b-a29c-58cb154780cb)
-
-![Screenshot 2024-02-12 at 9 37 58 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/f2387b6a-42e8-4c26-b1fe-9e2b5cd60f81)
-
 
 
 
