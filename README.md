@@ -25,6 +25,8 @@ CountryCoords.csv - Source of Geographic Coordinates for mapping the countries.
 
 map.ipynb - Code for creating a map with the countries in the dataset.
 
+pollution2.ppt - The powerpoint summary of our project work.
+
 ## Project Summary
 We decided to examine water quality vs. GDP and also water quality vs. population density to see if we could find any correlations between water quality and these factors. We set about doing this by first cleaning the data set and trying to understand the limitations of the data.  
 
