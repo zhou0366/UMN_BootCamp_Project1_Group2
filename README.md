@@ -45,6 +45,8 @@ To clean the data, the source file is imported as a pandas dataframe. As each ro
 
 For purposes of investigating the amount of datapoints taken, we then make a dataframe with a column containing each unique country. Then, we group by the number of unique years and water body IDs corresponding to each country. The resulting dataframe is also exported to another file. From this, we can see that there is a wide range of the number of measurements taken for each country. 
 
+![Screenshot 2024-02-12 at 9 54 03 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dfeda7bf-247c-435b-bc83-1ad225c30224)
+
 ### Limitations and Recommendations
 Ideally, the dataset would have data taken over the same number of years or even the same time period, for example Spain had seven years of data whereas Norway had one. Even when we consider the size of each country, some of the countries are misrepresented by only having one body of water measured. The inconsistencies are shown in the table below comparing years of data per country as well as bodies of water measured per country.
 
@@ -60,16 +62,8 @@ In order to draw the most meaningful conclusions, our recommendation would be to
 
 ![Screenshot 2024-02-12 at 9 37 58 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/f2387b6a-42e8-4c26-b1fe-9e2b5cd60f81)
 
-![Screenshot 2024-02-12 at 9 38 11 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/08877c54-3d2d-4e03-830f-9bbb3bb5c9d3)
 
-![Screenshot 2024-02-12 at 9 38 04 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/2de032d4-1678-4f71-97bf-a82f86b1380e)
 
-![Screenshot 2024-02-12 at 9 38 17 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/a205e9ff-3c27-4cfe-8fcd-cfba2dc05713)
-![Screenshot 2024-02-12 at 9 54 35 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/82a1cf99-819a-434a-9f8e-202f6601def5)
-
-![Screenshot 2024-02-12 at 9 54 23 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/528c6611-fa17-4c77-8270-b3656052fde8)
-
-![Screenshot 2024-02-12 at 9 54 03 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dfeda7bf-247c-435b-bc83-1ad225c30224)
 
 
 ## Appendix and Sources
