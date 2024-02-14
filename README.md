@@ -28,7 +28,7 @@ map.ipynb - Code for creating a map with the countries in the dataset.
 pollution2.ppt - The powerpoint summary of our project work.
 
 ## Project Summary
-We decided to examine water quality vs. gross domestic product (GDP) and also water quality vs. population density to see if we could find any correlations between water quality and these factors. We set about doing this by choosing three indicators of water quality (dissolved oxygen, water temperature, and pH) then by first cleaning the data set and trying to understand the limitations of the data.  
+We decided to examine water quality vs. gross domestic product (GDP in trillions of USD) and also water quality vs. population density (in number of people per sq km) to see if we could find any correlations between water quality and these factors. We set about doing this by choosing three indicators of water quality (dissolved oxygen, water temperature, and pH) then by first cleaning the data set and trying to understand the limitations of the data.  
 
 Whereas there are general assumptions that larger population density leads to greater pollution levels, or that higher GDP and therefore higher product consumption leads to greater pollution levels, and there are also inverse assumptions that lower GDP countries do not have as much money to clean up or prevent pollution, our data did not bear out any conclusive evidence of cause or effect or even correlation in those areas when it comes to water impairment. Our data was limited to only a few indicators of water impairment. There is the possibility that other factors such as pharmaceuticals in the water may be higher in higher GDP countries, we did not examine those factors, so we cannot talk about that. However, our findings do not consider enough types of indicators of water impairment to make any statements on the correlation between population density and water impairment or GDP and water impairment. 
 
@@ -41,13 +41,20 @@ European Environmental Agency (EEA) data measures 19 different water conditions 
 World Bank data measures socioeconomic data and waste generation breakdown by percentage. For this dataset, waste percentages are not used as this data is not necessarily limited to waste that goes into bodies of water. The two socioeconomic conditions used are population density and GDP as they are commonly used to describe socioeconomic conditions. Additionally, other values such as net immigration have a limited timeframe. Applying these timeframes to the EEA data severely limited the amount of data available.
 
 ### Analysis Process and Findings
-To clean the data, the source file is imported as a pandas dataframe. As each row represents an individual measurement, we will first need to narrow down the dataframe to only include rows measuring milligrams of O2 per liter, pH, and temperatures in degrees Celsius to account for the water quality indicators we have chosen to measure. For the rest of the analysis, we will not need all columns of the dataframe. We will then continue to narrow the dataframe to columns for the country name, water body ID as assigned by the EEA, year of the measurement, unit of measure of the measurement, value of the measurement, population density of the country, and GDP of the country. Empty rows are dropped and the index is reset before the resulting cleaned dataframe is exported to a new file. 
+To clean the data, the source file is imported as a pandas dataframe. As each row represents an individual measurement, we will first need to narrow down the dataframe to only include rows measuring milligrams of O2 per liter, pH, and temperatures in degrees Celsius to account for the water quality indicators we have chosen. For the rest of the analysis, we will not need all columns of the dataframe. We will then continue to narrow the dataframe to columns for the country name, water body ID as assigned by the EEA, year of the measurement, unit of measure of the measurement, value of the measurement, population density of the country, and GDP of the country. Empty rows are dropped and the index is reset before the resulting cleaned dataframe is exported to a new file. 
 
 For purposes of investigating the amount of datapoints taken, we then make a dataframe with a column containing each unique country. Then, we group by the number of unique years and water body IDs corresponding to each country. The resulting dataframe is also exported to another file. From this, we can see that there is a wide range of the number of measurements taken for each country. 
+
+Once we had cleaned the data down to this level, we discovered that each country used had different years of data as well as varying amounts of bodies of water measured. Additionally, we discovered that the GDP and population density remained static for each country despite differing years of data. From here, we pivoted to measuring the average water quality indicator over all bodies of water and all years for a country and comparing those numbers against the GDP and population density respectively. Below is an example of the table of data we generated using statistical analysis as well as the corresponding scatterplot to visualize the end result of our work.
 
 ![Screenshot 2024-02-12 at 9 37 51 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dd1b352d-826c-4d3b-a29c-58cb154780cb)
 
 ![Screenshot 2024-02-12 at 9 54 03 PM](https://github.com/zhou0366/UMN_BootCamp_Project1_Group2/assets/153045237/dfeda7bf-247c-435b-bc83-1ad225c30224)
+
+There are similar tables and scatterplots available in the analysis file for each water quality indicator compared to GDP and population density. For the dissolved oxygen and water acidity scatterplots, we added indicators for what is considered a normal range. For pH, this range is 6.5 - 9 and for dissolved oxygen, anything above 6 mg O2/L is considered to support marine level with minimal problems, a range of 2 mg O2/L to 6 mg O2/L is viable with moderate issues, and below 2 mg O2/L is considered hypoxic. We were unable to produce a similar healthy range for temperature as that depended on knowing what season and time of day the samples are from to be able to consider temperatures normal for water.
+
+### Conclusion
+In conclusion regarding acidity when reviewing our data, all of the datapoints for pH in both the GDP and population density areas fell within normal ranges. For dissolved oxygen, only 32% of the population density and GDP datapoints fell into the healthy range, but without a discernable pattern as an equal number of datapoints amongst the corresponding population densities fell below that range as well. Within our data, the r-values ranged from -0.32 to 0.35, indicating very weak relationships thus we are unable to find correlation between GDP or population density and any of our water quality measures.
 
 ### Limitations and Recommendations
 Ideally, the dataset would have data taken over the same number of years or even the same time period, for example Spain had seven years of data whereas Norway had one. Even when we consider the size of each country, some of the countries are misrepresented by only having one body of water measured. The inconsistencies are shown in the table below comparing years of data per country as well as bodies of water measured per country.
@@ -57,9 +64,6 @@ Ideally, the dataset would have data taken over the same number of years or even
 Another limitation we faced was a lack of procedure around the water temperature measurements. Without knowing if the temperature was measured at the same time or day or same time of year, we cannot effectively compare measurements to draw conclusions.
 
 In order to draw the most meaningful conclusions, our recommendation would be to gather water samples at the same time of day and on the same days of the year over a set number of years to make the measurements consistent. Each country should also have a more equal number of unique bodies of water being measured to allow for a more representative data set per country as well as to avoid the data being skewed in any country's direction due to a particularly excellent source of water or conversely a poor one if only one is being measured. Lastly, the data should be updated to reflect each country's GDP and population density changes with time to allow for more granularity in the data and the ability to drill down into a single country's water quality changes over time as its GDP and population density flucuates.
-
-
-
 
 ## Appendix and Sources
 
@@ -75,6 +79,9 @@ https://www.epa.gov/awma/factsheets-water-quality-parameters
 
 https://developers.google.com/public-data/docs/canonical/countries_csv
 
-### Abbreviations
+### Abbreviations and Units
 GDP - Gross Domestic Product
 EEA - European Environmental Agency
+
+GDP is measured in trillions of USD
+Population density is measured in number of people per square kilometer
