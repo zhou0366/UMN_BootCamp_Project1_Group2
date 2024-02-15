@@ -67,7 +67,7 @@ In order to draw the most meaningful conclusions, our recommendation would be to
 
 ## Appendix and Sources
 
-### Main Datasource
+### Main Data Source
 https://www.kaggle.com/datasets/ozgurdogan646/water-quality-dataset
 
 ### Additional Information
