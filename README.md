@@ -81,7 +81,10 @@ https://developers.google.com/public-data/docs/canonical/countries_csv
 
 ### Abbreviations and Units
 GDP - Gross Domestic Product
+
 EEA - European Environmental Agency
 
+
 GDP is measured in trillions of USD
+
 Population density is measured in number of people per square kilometer
